@@ -40,7 +40,7 @@ void main() async {
     ),
   )..add(AuthCheckLoggedIn());
 
-  // await authBloc.stream.firstWhere((state) => state is! AuthInitial);
+  await authBloc.stream.firstWhere((state) => state is! AuthInitial);
 
   runApp(MultiBlocProvider(
     providers: [BlocProvider(create: (create) => authBloc)],
