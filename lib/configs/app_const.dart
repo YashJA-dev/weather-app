@@ -2,12 +2,10 @@ import 'dart:convert';
 
 class AppConst {
   AppConst._();
-  // OPEN WEATHER API KEY
-  static String weatherApiKey = "YOUR_API_KEY";
-  // google place API KEY
-  static String googleApiKey = "YOUR_API_KEY";
-  // GEMMINAI API KEY
-  static String geminaiApiKey = "YOUR_API_KEY";
+  static String weatherApiKey = "191caaa9537fd722a7bf8d4219f4ae9b";
+  static String googleApiKey = "AIzaSyCTexnTVsp_ccEWjRXw2CR1dXy5gVfPkvc";
+  static String geminaiApiKey = "AIzaSyDsHEr-Q0YrNGfdIXV3GAzkadUQPJ_0PN4";
+
   // RIV
   static String weatherHomeRiv = "assets/weather_app_demo.riv";
 
